@@ -1,0 +1,64 @@
+.card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  background-color: #e9ecef;
+  position: relative;
+  padding: 1em;
+  border: 2px solid #212121;
+  transition: all 0.3s ease-in-out;
+}
+.card .card__close_btn {
+  font-size: 1.2rem;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.card .card__close_btn:hover {
+  color: #d54134;
+  border-bottom: 1px solid #d54134;
+}
+.card .link {
+  text-decoration: none;
+  color: #212121;
+}
+.card .link .card__location {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+.card .link .card__location span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.card .link .card__info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+.card .link .card__info .desc {
+  margin-left: 14px;
+}
+.card .link .card__info .desc p {
+  font-size: 2rem;
+}
+.card .link .infoTemp {
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.card:hover {
+  background-color: #d7d9db;
+  transform: scale(1.05);
+  box-shadow: 10px 10px 13px -12px rgba(0, 0, 0, 0.61);
+  -webkit-box-shadow: 10px 10px 13px -12px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 10px 10px 13px -12px rgba(0, 0, 0, 0.61);
+}/*# sourceMappingURL=Card.module.css.map */

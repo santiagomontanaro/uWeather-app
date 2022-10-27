@@ -1,0 +1,693 @@
+@charset "UTF-8";
+/*////this part of the code is for the logo animation, and it is not mine, I just change some details to fit my project, so thanks to autor @Brandon McConnell, all the credits go to him */
+@-webkit-keyframes typed {
+  /* string 1, char 1 */
+  0%, 0.4494504505% {
+    content: "u";
+  }
+  /* string 1, char 2 */
+  0.4504504505%, 0.8999009009% {
+    content: "uW";
+  }
+  /* string 1, char 3 */
+  0.9009009009%, 1.3503513514% {
+    content: "uWe";
+  }
+  /* string 1, char 4 */
+  1.3513513514%, 1.8008018018% {
+    content: "uWea";
+  }
+  /* string 1, char 5 */
+  1.8018018018%, 2.2512522523% {
+    content: "uWeat";
+  }
+  /* string 1, char 6 */
+  2.2522522523%, 2.7017027027% {
+    content: "uWeath";
+  }
+  /* string 1, char 7 */
+  2.7027027027%, 3.1521531532% {
+    content: "uWeathe";
+  }
+  /* string 1, char 8 */
+  3.1531531532%, 12.971972973% {
+    content: "uWeather";
+  }
+  /* string 1, char 9 */
+  12.972972973%, 13.3323333333% {
+    content: "uWeathe";
+  }
+  /* string 1, char 10 */
+  13.3333333333%, 13.6926936937% {
+    content: "uWeath";
+  }
+  /* string 1, char 11 */
+  13.6936936937%, 14.0530540541% {
+    content: "uWeat";
+  }
+  /* string 1, char 12 */
+  14.0540540541%, 14.4134144144% {
+    content: "uWea";
+  }
+  /* string 1, char 13 */
+  14.4144144144%, 14.7737747748% {
+    content: "uWe";
+  }
+  /* string 1, char 14 */
+  14.7747747748%, 15.1341351351% {
+    content: "uW";
+  }
+  /* string 1, char 15 */
+  15.1351351351%, 15.4944954955% {
+    content: "u";
+  }
+  /* string 1, char 16 */
+  15.4954954955%, 19.999% {
+    content: "​";
+  }
+  /* string 2, char 1 */
+  20%, 20.4494504505% {
+    content: "P";
+  }
+  /* string 2, char 2 */
+  20.4504504505%, 20.8999009009% {
+    content: "Pa";
+  }
+  /* string 2, char 3 */
+  20.9009009009%, 21.3503513514% {
+    content: "Par";
+  }
+  /* string 2, char 4 */
+  21.3513513514%, 21.8008018018% {
+    content: "Pari";
+  }
+  /* string 2, char 5 */
+  21.8018018018%, 31.6206216216% {
+    content: "Paris";
+  }
+  /* string 2, char 6 */
+  31.6216216216%, 31.980981982% {
+    content: "Pari";
+  }
+  /* string 2, char 7 */
+  31.981981982%, 32.3413423423% {
+    content: "Par";
+  }
+  /* string 2, char 8 */
+  32.3423423423%, 32.7017027027% {
+    content: "Pa";
+  }
+  /* string 2, char 9 */
+  32.7027027027%, 33.0620630631% {
+    content: "P";
+  }
+  /* string 2, char 10 */
+  33.0630630631%, 37.5665675676% {
+    content: "​";
+  }
+  /* string 3, char 1 */
+  37.5675675676%, 38.017018018% {
+    content: "N";
+  }
+  /* string 3, char 2 */
+  38.018018018%, 38.4674684685% {
+    content: "Ne";
+  }
+  /* string 3, char 3 */
+  38.4684684685%, 38.9179189189% {
+    content: "New";
+  }
+  /* string 3, char 4 */
+  38.9189189189%, 39.3683693694% {
+    content: "New ";
+  }
+  /* string 3, char 5 */
+  39.3693693694%, 39.8188198198% {
+    content: "New Y";
+  }
+  /* string 3, char 6 */
+  39.8198198198%, 40.2692702703% {
+    content: "New Yo";
+  }
+  /* string 3, char 7 */
+  40.2702702703%, 40.7197207207% {
+    content: "New Yor";
+  }
+  /* string 3, char 8 */
+  40.7207207207%, 50.5395405405% {
+    content: "New York";
+  }
+  /* string 3, char 9 */
+  50.5405405405%, 50.8999009009% {
+    content: "New Yor";
+  }
+  /* string 3, char 10 */
+  50.9009009009%, 51.2602612613% {
+    content: "New Yo";
+  }
+  /* string 3, char 11 */
+  51.2612612613%, 51.6206216216% {
+    content: "New Y";
+  }
+  /* string 3, char 12 */
+  51.6216216216%, 51.980981982% {
+    content: "New ";
+  }
+  /* string 3, char 13 */
+  51.981981982%, 52.3413423423% {
+    content: "New";
+  }
+  /* string 3, char 14 */
+  52.3423423423%, 52.7017027027% {
+    content: "Ne";
+  }
+  /* string 3, char 15 */
+  52.7027027027%, 53.0620630631% {
+    content: "N";
+  }
+  /* string 3, char 16 */
+  53.0630630631%, 57.5665675676% {
+    content: "​";
+  }
+  /* string 4, char 1 */
+  57.5675675676%, 58.017018018% {
+    content: "R";
+  }
+  /* string 4, char 2 */
+  58.018018018%, 58.4674684685% {
+    content: "Ro";
+  }
+  /* string 4, char 3 */
+  58.4684684685%, 58.9179189189% {
+    content: "Ros";
+  }
+  /* string 4, char 4 */
+  58.9189189189%, 59.3683693694% {
+    content: "Rosa";
+  }
+  /* string 4, char 5 */
+  59.3693693694%, 59.8188198198% {
+    content: "Rosar";
+  }
+  /* string 4, char 6 */
+  59.8198198198%, 60.2692702703% {
+    content: "Rosari";
+  }
+  /* string 4, char 7 */
+  60.2702702703%, 70.0890900901% {
+    content: "Rosario";
+  }
+  /* string 4, char 8 */
+  70.0900900901%, 70.4494504505% {
+    content: "Rosari";
+  }
+  /* string 4, char 9 */
+  70.4504504505%, 70.8098108108% {
+    content: "Rosar";
+  }
+  /* string 4, char 10 */
+  70.8108108108%, 71.1701711712% {
+    content: "Rosa";
+  }
+  /* string 4, char 11 */
+  71.1711711712%, 71.5305315315% {
+    content: "Ros";
+  }
+  /* string 4, char 12 */
+  71.5315315315%, 71.8908918919% {
+    content: "Ro";
+  }
+  /* string 4, char 13 */
+  71.8918918919%, 72.2512522523% {
+    content: "R";
+  }
+  /* string 4, char 14 */
+  72.2522522523%, 76.7557567568% {
+    content: "​";
+  }
+  /* string 5, char 1 */
+  76.7567567568%, 77.2062072072% {
+    content: "B";
+  }
+  /* string 5, char 2 */
+  77.2072072072%, 77.6566576577% {
+    content: "Bu";
+  }
+  /* string 5, char 3 */
+  77.6576576577%, 78.1071081081% {
+    content: "Bue";
+  }
+  /* string 5, char 4 */
+  78.1081081081%, 78.5575585586% {
+    content: "Buen";
+  }
+  /* string 5, char 5 */
+  78.5585585586%, 79.008009009% {
+    content: "Bueno";
+  }
+  /* string 5, char 6 */
+  79.009009009%, 79.4584594595% {
+    content: "Buenos";
+  }
+  /* string 5, char 7 */
+  79.4594594595%, 79.9089099099% {
+    content: "Buenos ";
+  }
+  /* string 5, char 8 */
+  79.9099099099%, 80.3593603604% {
+    content: "Buenos A";
+  }
+  /* string 5, char 9 */
+  80.3603603604%, 80.8098108108% {
+    content: "Buenos Ai";
+  }
+  /* string 5, char 10 */
+  80.8108108108%, 81.2602612613% {
+    content: "Buenos Air";
+  }
+  /* string 5, char 11 */
+  81.2612612613%, 81.7107117117% {
+    content: "Buenos Aire";
+  }
+  /* string 5, char 12 */
+  81.7117117117%, 91.5305315315% {
+    content: "Buenos Aires";
+  }
+  /* string 5, char 13 */
+  91.5315315315%, 91.8908918919% {
+    content: "Buenos Aire";
+  }
+  /* string 5, char 14 */
+  91.8918918919%, 92.2512522523% {
+    content: "Buenos Air";
+  }
+  /* string 5, char 15 */
+  92.2522522523%, 92.6116126126% {
+    content: "Buenos Ai";
+  }
+  /* string 5, char 16 */
+  92.6126126126%, 92.971972973% {
+    content: "Buenos A";
+  }
+  /* string 5, char 17 */
+  92.972972973%, 93.3323333333% {
+    content: "Buenos ";
+  }
+  /* string 5, char 18 */
+  93.3333333333%, 93.6926936937% {
+    content: "Buenos";
+  }
+  /* string 5, char 19 */
+  93.6936936937%, 94.0530540541% {
+    content: "Bueno";
+  }
+  /* string 5, char 20 */
+  94.0540540541%, 94.4134144144% {
+    content: "Buen";
+  }
+  /* string 5, char 21 */
+  94.4144144144%, 94.7737747748% {
+    content: "Bue";
+  }
+  /* string 5, char 22 */
+  94.7747747748%, 95.1341351351% {
+    content: "Bu";
+  }
+  /* string 5, char 23 */
+  95.1351351351%, 95.4944954955% {
+    content: "B";
+  }
+  /* string 5, char 24 */
+  95.4954954955%, 100% {
+    content: "​";
+  }
+}
+@keyframes typed {
+  /* string 1, char 1 */
+  0%, 0.4494504505% {
+    content: "u";
+  }
+  /* string 1, char 2 */
+  0.4504504505%, 0.8999009009% {
+    content: "uW";
+  }
+  /* string 1, char 3 */
+  0.9009009009%, 1.3503513514% {
+    content: "uWe";
+  }
+  /* string 1, char 4 */
+  1.3513513514%, 1.8008018018% {
+    content: "uWea";
+  }
+  /* string 1, char 5 */
+  1.8018018018%, 2.2512522523% {
+    content: "uWeat";
+  }
+  /* string 1, char 6 */
+  2.2522522523%, 2.7017027027% {
+    content: "uWeath";
+  }
+  /* string 1, char 7 */
+  2.7027027027%, 3.1521531532% {
+    content: "uWeathe";
+  }
+  /* string 1, char 8 */
+  3.1531531532%, 12.971972973% {
+    content: "uWeather";
+  }
+  /* string 1, char 9 */
+  12.972972973%, 13.3323333333% {
+    content: "uWeathe";
+  }
+  /* string 1, char 10 */
+  13.3333333333%, 13.6926936937% {
+    content: "uWeath";
+  }
+  /* string 1, char 11 */
+  13.6936936937%, 14.0530540541% {
+    content: "uWeat";
+  }
+  /* string 1, char 12 */
+  14.0540540541%, 14.4134144144% {
+    content: "uWea";
+  }
+  /* string 1, char 13 */
+  14.4144144144%, 14.7737747748% {
+    content: "uWe";
+  }
+  /* string 1, char 14 */
+  14.7747747748%, 15.1341351351% {
+    content: "uW";
+  }
+  /* string 1, char 15 */
+  15.1351351351%, 15.4944954955% {
+    content: "u";
+  }
+  /* string 1, char 16 */
+  15.4954954955%, 19.999% {
+    content: "​";
+  }
+  /* string 2, char 1 */
+  20%, 20.4494504505% {
+    content: "P";
+  }
+  /* string 2, char 2 */
+  20.4504504505%, 20.8999009009% {
+    content: "Pa";
+  }
+  /* string 2, char 3 */
+  20.9009009009%, 21.3503513514% {
+    content: "Par";
+  }
+  /* string 2, char 4 */
+  21.3513513514%, 21.8008018018% {
+    content: "Pari";
+  }
+  /* string 2, char 5 */
+  21.8018018018%, 31.6206216216% {
+    content: "Paris";
+  }
+  /* string 2, char 6 */
+  31.6216216216%, 31.980981982% {
+    content: "Pari";
+  }
+  /* string 2, char 7 */
+  31.981981982%, 32.3413423423% {
+    content: "Par";
+  }
+  /* string 2, char 8 */
+  32.3423423423%, 32.7017027027% {
+    content: "Pa";
+  }
+  /* string 2, char 9 */
+  32.7027027027%, 33.0620630631% {
+    content: "P";
+  }
+  /* string 2, char 10 */
+  33.0630630631%, 37.5665675676% {
+    content: "​";
+  }
+  /* string 3, char 1 */
+  37.5675675676%, 38.017018018% {
+    content: "N";
+  }
+  /* string 3, char 2 */
+  38.018018018%, 38.4674684685% {
+    content: "Ne";
+  }
+  /* string 3, char 3 */
+  38.4684684685%, 38.9179189189% {
+    content: "New";
+  }
+  /* string 3, char 4 */
+  38.9189189189%, 39.3683693694% {
+    content: "New ";
+  }
+  /* string 3, char 5 */
+  39.3693693694%, 39.8188198198% {
+    content: "New Y";
+  }
+  /* string 3, char 6 */
+  39.8198198198%, 40.2692702703% {
+    content: "New Yo";
+  }
+  /* string 3, char 7 */
+  40.2702702703%, 40.7197207207% {
+    content: "New Yor";
+  }
+  /* string 3, char 8 */
+  40.7207207207%, 50.5395405405% {
+    content: "New York";
+  }
+  /* string 3, char 9 */
+  50.5405405405%, 50.8999009009% {
+    content: "New Yor";
+  }
+  /* string 3, char 10 */
+  50.9009009009%, 51.2602612613% {
+    content: "New Yo";
+  }
+  /* string 3, char 11 */
+  51.2612612613%, 51.6206216216% {
+    content: "New Y";
+  }
+  /* string 3, char 12 */
+  51.6216216216%, 51.980981982% {
+    content: "New ";
+  }
+  /* string 3, char 13 */
+  51.981981982%, 52.3413423423% {
+    content: "New";
+  }
+  /* string 3, char 14 */
+  52.3423423423%, 52.7017027027% {
+    content: "Ne";
+  }
+  /* string 3, char 15 */
+  52.7027027027%, 53.0620630631% {
+    content: "N";
+  }
+  /* string 3, char 16 */
+  53.0630630631%, 57.5665675676% {
+    content: "​";
+  }
+  /* string 4, char 1 */
+  57.5675675676%, 58.017018018% {
+    content: "R";
+  }
+  /* string 4, char 2 */
+  58.018018018%, 58.4674684685% {
+    content: "Ro";
+  }
+  /* string 4, char 3 */
+  58.4684684685%, 58.9179189189% {
+    content: "Ros";
+  }
+  /* string 4, char 4 */
+  58.9189189189%, 59.3683693694% {
+    content: "Rosa";
+  }
+  /* string 4, char 5 */
+  59.3693693694%, 59.8188198198% {
+    content: "Rosar";
+  }
+  /* string 4, char 6 */
+  59.8198198198%, 60.2692702703% {
+    content: "Rosari";
+  }
+  /* string 4, char 7 */
+  60.2702702703%, 70.0890900901% {
+    content: "Rosario";
+  }
+  /* string 4, char 8 */
+  70.0900900901%, 70.4494504505% {
+    content: "Rosari";
+  }
+  /* string 4, char 9 */
+  70.4504504505%, 70.8098108108% {
+    content: "Rosar";
+  }
+  /* string 4, char 10 */
+  70.8108108108%, 71.1701711712% {
+    content: "Rosa";
+  }
+  /* string 4, char 11 */
+  71.1711711712%, 71.5305315315% {
+    content: "Ros";
+  }
+  /* string 4, char 12 */
+  71.5315315315%, 71.8908918919% {
+    content: "Ro";
+  }
+  /* string 4, char 13 */
+  71.8918918919%, 72.2512522523% {
+    content: "R";
+  }
+  /* string 4, char 14 */
+  72.2522522523%, 76.7557567568% {
+    content: "​";
+  }
+  /* string 5, char 1 */
+  76.7567567568%, 77.2062072072% {
+    content: "B";
+  }
+  /* string 5, char 2 */
+  77.2072072072%, 77.6566576577% {
+    content: "Bu";
+  }
+  /* string 5, char 3 */
+  77.6576576577%, 78.1071081081% {
+    content: "Bue";
+  }
+  /* string 5, char 4 */
+  78.1081081081%, 78.5575585586% {
+    content: "Buen";
+  }
+  /* string 5, char 5 */
+  78.5585585586%, 79.008009009% {
+    content: "Bueno";
+  }
+  /* string 5, char 6 */
+  79.009009009%, 79.4584594595% {
+    content: "Buenos";
+  }
+  /* string 5, char 7 */
+  79.4594594595%, 79.9089099099% {
+    content: "Buenos ";
+  }
+  /* string 5, char 8 */
+  79.9099099099%, 80.3593603604% {
+    content: "Buenos A";
+  }
+  /* string 5, char 9 */
+  80.3603603604%, 80.8098108108% {
+    content: "Buenos Ai";
+  }
+  /* string 5, char 10 */
+  80.8108108108%, 81.2602612613% {
+    content: "Buenos Air";
+  }
+  /* string 5, char 11 */
+  81.2612612613%, 81.7107117117% {
+    content: "Buenos Aire";
+  }
+  /* string 5, char 12 */
+  81.7117117117%, 91.5305315315% {
+    content: "Buenos Aires";
+  }
+  /* string 5, char 13 */
+  91.5315315315%, 91.8908918919% {
+    content: "Buenos Aire";
+  }
+  /* string 5, char 14 */
+  91.8918918919%, 92.2512522523% {
+    content: "Buenos Air";
+  }
+  /* string 5, char 15 */
+  92.2522522523%, 92.6116126126% {
+    content: "Buenos Ai";
+  }
+  /* string 5, char 16 */
+  92.6126126126%, 92.971972973% {
+    content: "Buenos A";
+  }
+  /* string 5, char 17 */
+  92.972972973%, 93.3323333333% {
+    content: "Buenos ";
+  }
+  /* string 5, char 18 */
+  93.3333333333%, 93.6926936937% {
+    content: "Buenos";
+  }
+  /* string 5, char 19 */
+  93.6936936937%, 94.0530540541% {
+    content: "Bueno";
+  }
+  /* string 5, char 20 */
+  94.0540540541%, 94.4134144144% {
+    content: "Buen";
+  }
+  /* string 5, char 21 */
+  94.4144144144%, 94.7737747748% {
+    content: "Bue";
+  }
+  /* string 5, char 22 */
+  94.7747747748%, 95.1341351351% {
+    content: "Bu";
+  }
+  /* string 5, char 23 */
+  95.1351351351%, 95.4944954955% {
+    content: "B";
+  }
+  /* string 5, char 24 */
+  95.4954954955%, 100% {
+    content: "​";
+  }
+}
+@-webkit-keyframes beam-blink {
+  75% {
+    border-color: transparent;
+  }
+}
+@keyframes beam-blink {
+  75% {
+    border-color: transparent;
+  }
+}
+* {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.title::after {
+  content: "​";
+  position: relative;
+  top: -1px;
+  border-right: 4px solid #000;
+  -webkit-animation: typed 22.2s linear 1s infinite, beam-blink 1s infinite;
+          animation: typed 22.2s linear 1s infinite, beam-blink 1s infinite;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+  background-color: #e9ecef;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.nav .logo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 275px;
+  border: 4px solid #212121;
+  border-radius: 10px;
+}
+.nav .logo .title {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #212121;
+  padding: 0 1.1rem;
+}/*# sourceMappingURL=Navbar.module.css.map */

@@ -1,0 +1,85 @@
+.searchBar .searchBar__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 300px;
+}
+.searchBar .searchBar__container .searchBar__input {
+  width: 100px;
+  height: 2rem;
+  padding: 1em;
+  border-radius: 5px;
+  border: 2px solid #212121;
+  background-color: transparent;
+  color: #212121;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+.searchBar .searchBar__container .searchBar__input::-moz-placeholder {
+  color: rgba(41, 41, 41, 0.7176470588);
+  position: relative;
+  top: 0.01rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+.searchBar .searchBar__container .searchBar__input:-ms-input-placeholder {
+  color: rgba(41, 41, 41, 0.7176470588);
+  position: relative;
+  top: 0.01rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+.searchBar .searchBar__container .searchBar__input::placeholder {
+  color: rgba(41, 41, 41, 0.7176470588);
+  position: relative;
+  top: 0.01rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+.searchBar .searchBar__container .searchBar__input:focus {
+  outline: none;
+  border: 3px solid #212121;
+  border-radius: 8px;
+  width: 250px;
+  font-size: 1.4em;
+  box-shadow: 0 0 10px 0px rgba(33, 37, 41, 0.394);
+}
+.searchBar .searchBar__container .searchBar__btn {
+  border-radius: 5px;
+  border: 2px solid #212121;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0.48em 2em;
+  transition: all 0.1s ease-in-out;
+  font-weight: 700;
+}
+.searchBar .searchBar__container .searchBar__btn:hover {
+  background-color: #212121;
+  color: #fff;
+}
+.searchBar .alerts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+}
+.searchBar .alerts .alerts__alert {
+  display: block;
+  padding: 0.2em 0.5em;
+  font-size: 1.2rem;
+}
+.searchBar .alerts .alerts__warn {
+  color: #f5cb25;
+  border: 2px solid #f5cb25;
+}
+.searchBar .alerts .alerts__error {
+  color: #d54134;
+  border: 2px solid #d54134;
+}
+.searchBar .alerts .alerts__warn,
+.searchBar .alerts .alerts__error {
+  border-radius: 5px;
+}/*# sourceMappingURL=SearchBar.module.css.map */

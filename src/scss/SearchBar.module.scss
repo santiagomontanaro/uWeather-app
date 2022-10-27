@@ -1,0 +1,91 @@
+$error-msg: #d54134;
+$alert-msg: #f5cb25;
+$border-radius: 5px;
+
+@mixin border($color) {
+  border: 2px solid $color;
+}
+
+.searchBar {
+  .searchBar__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 300px;
+
+    .searchBar__input {
+      width: 100px;
+      height: 2rem;
+      padding: 1em;
+      border-radius: $border-radius;
+      @include border(#212121);
+      background-color: transparent;
+      color: #212121;
+      font-weight: 600;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .searchBar__input::placeholder {
+      color: #292929b7;
+      position: relative;
+      top: 0.01rem;
+      font-weight: 500;
+      font-size: .9rem;
+    }
+
+    .searchBar__input:focus {
+      outline: none;
+      border: 3px solid #212121;
+      border-radius: 8px;
+      width: 250px;
+      font-size: 1.4em;
+      box-shadow: 0 0 10px 0px rgba(33, 37, 41, 0.394);
+    }
+
+    .searchBar__btn {
+      border-radius: $border-radius;
+      @include border(#212121);
+      background-color: transparent;
+      cursor: pointer;
+      padding: .48em 2em;
+      transition: all 0.1s ease-in-out;
+      font-weight: 700;
+    }
+
+    .searchBar__btn:hover {
+      background-color: #212121;
+      color: #fff;
+    }
+  }
+
+  .alerts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+
+    .alerts__alert {
+      display: block;
+      padding: .2em 0.5em;
+      font-size: 1.2rem;
+    }
+
+    .alerts__warn {
+      color: $alert-msg;
+      @include border($alert-msg);
+    }
+
+    .alerts__error {
+      color: $error-msg;
+      @include border($error-msg);
+    }
+
+    .alerts__warn,
+    .alerts__error {
+      border-radius: $border-radius;
+    }
+  }
+}

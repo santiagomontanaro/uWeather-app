@@ -1,0 +1,9 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+  gap: 2em;
+  min-width: 100vw;
+}/*# sourceMappingURL=Cards.module.css.map */
